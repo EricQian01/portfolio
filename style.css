@@ -1,0 +1,67 @@
+/* CSS for the entire page */
+body {
+    background-color: #F2ECEB;
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* CSS for the header */
+header {
+    background-color: #AAB8C2;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    transform: scale(1.2);
+}
+
+/* CSS for the main content */
+main {
+    padding: 50px;
+}
+
+h1 {
+    color: #586F7C;
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+/* CSS for the footer */
+footer {
+    background-color: #AAB8C2;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+}
